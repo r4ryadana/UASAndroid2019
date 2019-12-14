@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#F0E68C"
     tools:context=".WelcomeActivity">
 
     <androidx.viewpager.widget.ViewPager
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:background="#FFD700"
+        android:background="#BDB76B"
         android:text="NEXT"
         android:textColor="@android:color/white" />
 
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:background="#FFD700"
+        android:background="#BDB76B"
         android:text="skip"
         android:textColor="@android:color/white" />
 </RelativeLayout>
