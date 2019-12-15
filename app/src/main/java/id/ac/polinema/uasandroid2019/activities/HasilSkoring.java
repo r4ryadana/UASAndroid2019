@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import id.ac.polinema.uasandroid2019.R;
+
 public class HasilSkoring extends AppCompatActivity {
 
     @Override
