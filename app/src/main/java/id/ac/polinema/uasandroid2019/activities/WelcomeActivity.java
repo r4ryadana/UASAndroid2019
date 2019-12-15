@@ -1,8 +1,4 @@
-package id.ac.polinema.uasandroid2019;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
+package id.ac.polinema.uasandroid2019.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +10,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+import id.ac.polinema.uasandroid2019.R;
 
 public class WelcomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
@@ -86,11 +88,12 @@ public class WelcomeActivity extends AppCompatActivity {
 
 
     private int getItem(int i) {
+
         return viewPager.getCurrentItem() + i;
     }
 
     private void launchHomeScreen() {
-        startActivity(new Intent(WelcomeActivity.this, SplashActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
         finish();
     }
 
@@ -104,11 +107,11 @@ public class WelcomeActivity extends AppCompatActivity {
             // changing the next button text 'NEXT' / 'GOT IT'
             if (position == layouts.length - 1) {
                 // last page. make button text to GOT IT
-                btnNext.setText(getString(R.string.start));
+                btnNext.setText("GOT IT");
                 btnSkip.setVisibility(View.GONE);
             } else {
                 // still pages are left
-                btnNext.setText(getString(R.string.next));
+                btnNext.setText("NEXT");
                 btnSkip.setVisibility(View.VISIBLE);
             }
         }

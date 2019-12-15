@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="view_pager" type="id" />
-    <item name="layoutDots" type="id" />
-    <item name="btn_skip" type="id" />
-    <item name="btn_next" type="id" />
+
 </resources>

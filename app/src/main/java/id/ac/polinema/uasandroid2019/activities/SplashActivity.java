@@ -1,10 +1,12 @@
-package id.ac.polinema.uasandroid2019;
+package id.ac.polinema.uasandroid2019.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import id.ac.polinema.uasandroid2019.R;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -16,9 +18,9 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this,MainActivity.class));
-                finish();
+                Intent intent = new Intent(SplashActivity.this, WelcomeActivity.class);
+                startActivity(intent);
             }
-        },5000);
+        }, 5000);
     }
 }
