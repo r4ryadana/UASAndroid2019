@@ -4,41 +4,30 @@ public class SoalPilihanGanda {
 
     //membuat array untuk pertanyaan
     public String pertanyaan[] = {
-            "Siapa nama presiden Indonesia yang pertama ?",
-            "Ideologi dasar bagi negara Indonesia adalah ...",
-            "Bhinneka Tunggal Ika mempunyai arti ...",
-            "Ibukota negara Indonesia saat ini adalah ...",
-            "Siapa yang menjajah Indonesia selama 350 tahun ?",
-            "Saat masa penjajahan, senjata yang biasa digunakan oleh pahlawan Indonesia adalah ...",
-            "Monumen untuk mengenang perlawanan dan perjuanagan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda adalah ...",
-            "Teks yang dibacakan Ir. Soekarno yang menyatakan Indonesia merdeka dalah teks ...",
-            "Pulau terbesar di Indonesia adalah ...",
+            "Apa warna bendera Indonesia ?",
+            "Indonesia adalah negara ...",
+            "Bhinneka Tunggal Ika artinya ...",
+            "Ibukota negara Indonesia ada di pulau ...",
+            "Dibawah ini yang termasuk pahlawan tanpa tanda jasa adalah ...",
     };
 
     //membuat array untuk pilihan jawaban
     private String pilihanJawaban[][] = {
-            {"Ir. Soekarno","Joko Widodo","Susilo Bambang Yudhoyono"},
-            {"UUD 1945","Pancasila","Bhinneka Tunggal Ika"},
-            {"Berbeda-beda tetapi tetap satu","Bersama selamanya","Bersatu teguh bercerai runtuh"},
-            {"Semarang","Surabaya","Jakarta"},
-            {"Jepang","Belanda","Malaysia"},
-            {"Bambu runcing","Ketapel","Shotgun"},
-            {"Tugu Muda","Patung Pancoran","Monas"},
-            {"Proklamasi","Pancasila","Pembukaan UUD 1945"},
-            {"Jawa","Sumatera","Kalimantan"},
+            {"Hitam Merah","Hijau Kuning","Merah Putih"},
+            {"Kepulauan","Maju","Islam"},
+            {"Bersama selamanya","Berbeda-beda tetapi tetap satu jua","Bersatu teguh bercerai runtuh"},
+            {"Sulawesi","Kalimantan","Jawa"},
+            {"Guru","Superman","Maling"},
     };
 
     //membuat array untuk jawaban benar
     private String jawabanBenar[] = {
-            "Ir. Soekarno",
-            "Pancasila",
-            "Berbeda-beda tetapi tetap satu",
-            "Jakarta",
-            "Belanda",
-            "Bambu runcing",
-            "Monas",
-            "Proklamasi",
-            "Kalimantan",
+            "Merah Putih",
+            "Kepulauan",
+            "Berbeda-beda tetapi tetap satu jua",
+            "Jawa",
+            "Guru",
+
     };
 
     //membuat getter untuk mengambil pertanyaan
