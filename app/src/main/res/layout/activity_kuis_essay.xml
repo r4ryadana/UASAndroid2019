@@ -41,13 +41,14 @@
             android:id="@+id/ivGambar"
             android:layout_width="match_parent"
             android:layout_height="230dp"/>
+
         <TextView
-            android:layout_marginTop="10dp"
             android:id="@+id/tvSoal2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:gravity="center"
-            android:textSize="18sp"/>
+            android:textSize="18sp" />
     </LinearLayout>
 
     <EditText
