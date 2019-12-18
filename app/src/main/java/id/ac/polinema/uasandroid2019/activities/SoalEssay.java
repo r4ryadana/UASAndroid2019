@@ -4,42 +4,30 @@ public class SoalEssay {
     //membuat array untuk pertanyaan
     public String pertanyaan[] = {
             "Siapa nama presiden Indonesia yang pertama ?",
-            "Ideologi dasar bagi negara Indonesia adalah ...",
-            "Bhinneka Tunggal Ika mempunyai arti ...",
-            "Ibukota negara Indonesia saat ini adalah ...",
-            "Siapa yang menjajah Indonesia selama 350 tahun ?",
-            "Saat masa penjajahan, senjata yang biasa digunakan oleh pahlawan Indonesia adalah ...",
-            "Monumen pada gambar sering disebut ...",
-            "Teks yang dibacakan Ir. Soekarno yang menyatakan Indonesia merdeka dalah teks ...",
-            "Pulau terbesar di Indonesia adalah ...",
+            "apa nama pulau di atas ...",
+            "candi borobudur terletak di ...",
+            "jam di atas menunjukkan pukul ...",
+            "bahasa inggris dari gajah adalah ?",
     };
 
     //membuat array untuk set gambar (dari String diubah jadi ImageView)
     //pastikan yang tertulis disini sama dengan nama di drawable
     //lihat gambar penjelasan1
     private String image[] = {
-            "foto_soekarno",
-            "lambang_garuda",
-            "lambang_garuda",
-            "jakarta",
-            "penjajahan",
-            "bambu_runcing",
-            "monas",
-            "teks_proklamasi",
-            "pulau_kalimantan",
+            "soal1",
+            "soal2",
+            "soal3",
+            "soal4",
+            "soal5",
     };
 
     //membuat array jawaban benar
     private String jawabanBenar[] = {
             "Ir. Soekarno",
-            "Pancasila",
-            "Berbeda-beda tetapi tetap satu",
-            "Jakarta",
-            "Belanda",
-            "Bambu runcing",
-            "Monas",
-            "Proklamasi",
             "Kalimantan",
+            "Jawa tengah",
+            "16.30",
+            "Elephant",
     };
 
     //membuat getter untuk mengambil pertanyaan

@@ -82,7 +82,7 @@ public class KuisEssay extends AppCompatActivity {
         if(!medtJawaban.getText().toString().isEmpty()){ //jika edit text TIDAK kosong
             //jika text yang tertulis di edit text tsb = nilai dari var jawaban
             if(medtJawaban.getText().toString().equalsIgnoreCase(jawaban)){
-                skor = skor + 10;
+                skor = skor + 20;
                 mtvSkor2.setText(""+skor);	//mtvSkor2 diset nilainya = var skor
                 Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show(); //keluar notifikasi "Jawaban Benar"
                 setKonten(); //update next konten
