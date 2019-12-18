@@ -112,7 +112,7 @@ public class KuisPilihanGanda extends AppCompatActivity {
         }else if(mrbPilihanJawaban3.isChecked()){
             //jika text yang tertulis di radio button tsb = nilai dari var jawaban
             if(mrbPilihanJawaban3.getText().toString().equals(jawaban)){
-                skor = skor + 10;
+                skor = skor + 20;
                 mtvSkor.setText(""+skor);	//mtvSkor diset nilainya = var skor
                 Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show(); //keluar notifikasi "Jawaban Benar"
                 setKonten(); //update next konten
