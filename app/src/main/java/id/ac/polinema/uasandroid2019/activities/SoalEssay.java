@@ -23,11 +23,11 @@ public class SoalEssay {
 
     //membuat array jawaban benar
     private String jawabanBenar[] = {
-            "Soekarno",
-            "Kalimantan",
-            "Jawa tengah",
+            "soekarno",
+            "kalimantan",
+            "jawa tengah",
             "16.30",
-            "Elephant",
+            "elephant",
     };
 
     //membuat getter untuk mengambil pertanyaan
