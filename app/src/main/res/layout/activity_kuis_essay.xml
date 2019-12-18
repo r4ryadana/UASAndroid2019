@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8eaeff"
+    android:background="#F0E68C"
     tools:context="id.ac.polinema.uasandroid2019.activities.KuisEssay">
 
     <LinearLayout
@@ -72,6 +72,6 @@
         android:layout_below="@id/edtJawaban"
         android:layout_margin="10dp"
         android:text="SUBMIT"
-        android:background="#5f7dc9"/>
+        android:background="#BDB76B"/>
 
 </RelativeLayout>
