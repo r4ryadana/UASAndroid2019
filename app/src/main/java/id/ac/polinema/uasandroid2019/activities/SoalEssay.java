@@ -23,7 +23,7 @@ public class SoalEssay {
 
     //membuat array jawaban benar
     private String jawabanBenar[] = {
-            "Ir. Soekarno",
+            "Soekarno",
             "Kalimantan",
             "Jawa tengah",
             "16.30",
