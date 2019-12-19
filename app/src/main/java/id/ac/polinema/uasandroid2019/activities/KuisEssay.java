@@ -53,11 +53,9 @@ public class KuisEssay extends AppCompatActivity {
         medtJawaban.setText(null);
         arr = essay.pertanyaan.length;
         if(x >= arr){ //jika nilai x melebihi nilai arr(panjang array) maka akan pindah activity (kuis selesai)
-            String jumlahSkor = String.valueOf(skor);	//menjadikan skor menjadi string
+            String jumlahSkor = String.valueOf(skor);
             Intent i = new Intent(KuisEssay.this, HasilSkoring.class);
             //waktu pindah activity, sekalian membawa nilai jumlahSkor yang ditampung dengan inisial skorAkhir2
-            //singkatnya skorAkhir2 = jumlahSkor
-            //jika masih belum jelas silahkan bertanya
             i.putExtra("skorAkhir2",jumlahSkor);
             i.putExtra("activity","Essay");
             startActivity(i);
@@ -79,8 +77,7 @@ public class KuisEssay extends AppCompatActivity {
     }
 
     public void cekJawaban(){
-        if(!medtJawaban.getText().toString().isEmpty()){ //jika edit text TIDAK kosong
-            //jika text yang tertulis di edit text tsb = nilai dari var jawaban
+        if(!medtJawaban.getText().toString().isEmpty()){
             if(medtJawaban.getText().toString().equalsIgnoreCase(jawaban)){
                 skor = skor + 20;
                 mtvSkor2.setText(""+skor);	//mtvSkor2 diset nilainya = var skor
@@ -96,12 +93,8 @@ public class KuisEssay extends AppCompatActivity {
         }
     }
 
-    //ini adalah method bawaan dari Android Studio
-    //fungsi : memberi aksi ketika tombol back pada hp diklik
+
     public void onBackPressed(){
         Toast.makeText(this, "Selesaikan kuis", Toast.LENGTH_SHORT).show();
-        //jadi yang awalnya klik tombol back maka akan kembali ke activity sebelumnya
-        //kali ini ketika tombol back diklik maka
-        //hanya muncul Toast
     }
 }

@@ -10,40 +10,29 @@ import android.widget.Toast;
 import id.ac.polinema.uasandroid2019.R;
 
 public class MainActivity extends AppCompatActivity {
-    LinearLayout mlinePilGan, mLineEssay;	//variabel baru bertipe LinearLayout
+    LinearLayout mlinePilGan, mLineEssay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //menyambungkan variabel pada MainActivity.java dengan id pada activity_main
-        //pastikan tipe data variabel dengan view id sama
         mlinePilGan = (LinearLayout) findViewById(R.id.linePilGan);
         mLineEssay = (LinearLayout) findViewById(R.id.lineEssay);
 
-        //memberi aksi ketika diklik
         mlinePilGan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //hasil aksinya ditulis disini (dalam method onClick)
-                //pada kali ini hasil yang diinginkan adalah pindah activity, maka
 
-                //membuat objek baru dari kelas intent,
-                //dari MainActivity akan pindah ke KuisPilihaGanda
                 Intent i = new Intent(MainActivity.this, KuisPilihanGanda.class);
-                startActivity(i); //jalankan Intent
+                startActivity(i);
             }
         });
 
         mLineEssay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //hasil aksinya ditulis disini (dalam method onClick)
-                //pada kali ini hasil yang diinginkan adalah pindah activity, maka
 
-                //membuat objek baru dari kelas intent,
-                //dari MainActivity akan pindah ke KuisEssay
                 Intent i = new Intent(MainActivity.this, KuisEssay.class);
                 startActivity(i);
             }
